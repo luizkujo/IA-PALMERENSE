@@ -1,10 +1,12 @@
+
+
 /* DEFININÇÃO DAS VARIAVEIS CSS PARA CORES*/
 :root {
     --cor-fundo: #064070;
     --cor-principal: #0b0d20;
     --cor-secundaria: #212333;
     --cor-destaque: #e22b2b;
-    --cor-texto: #e42626;
+    --cor-texto: #15dc51;
     --cor-fadeButtom: #e29716;
 }
 
@@ -18,4 +20,54 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+button{
+    background-color: var(--cor-destaque);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    color: var(--cor-principal);
+    font-size: 1rem;
+    cursor:pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: var(--cor-fadeButtom);
+    color: var(--cor-texto);
+}
+.caixa-resultado{
+    display: none;
+    text-align: center;
+    padding:20px ;
+    background-color: var(--cor-secundaria);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 8px;
+}
+.caixa-resultado.mostrar{
+    opacity: 1;
+}
+.texto-resultado{
+    font-size: 1.2rem;
+    color: var(--cor-texto);
 }
