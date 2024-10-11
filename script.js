@@ -10,42 +10,42 @@ const textoResultado = document.querySelector(".texto-resultado");
 // Array de objeto contendo as perguntas e alternativas
 const perguntas = [
     {
-        enunciado: "Qual a idade máxima que um cachorro pode chegar?",
+        enunciado: "Qual boss é considerado o mais dificil do jogo?",
         alternativas: [
-            "15 anos",
-            "20 anos"
+            "Duckfishron",
+            "MoobLord"
         ],
-        correta: 0 // A primeira alternativa é a correta
+        correta: 1 // A primeira alternativa é a correta
     },
     {
-        enunciado: "Quantos dias há em um ano bissexto?",
+        enunciado: "Qual conquista é mais odiada pelos jogadores?",
         alternativas: [
-            "365",
-            "366"
+            "Do pescador",
+            "Descorromper o mundo"
         ],
-        correta: 1 // A segunda alternativa é a correta
+        correta: 0 // A segunda alternativa é a correta
     },
     {
-        enunciado: "Qual é o maior planeta do nosso sistema solar?",
+        enunciado: "Qual montaria é a mai rápida do terraria?",
         alternativas: [
-            "Terra",
-            "Júpiter"
+            "Vassoura de Bruxa",
+            "Tubarão de lava"
         ],
         correta: 1
     },
     {
-        enunciado: "Qual é a capital da França?",
+        enunciado: "Qual bioma é o mais dificil de ser explorado no começo do jogo?",
         alternativas: [
-            "Paris",
-            "Londres"
+            "Neve",
+            "Deserto"
         ],
-        correta: 0
+        correta: 1
     },
     {
-        enunciado: "Qual é a fórmula química da água?",
+        enunciado: "Ta podendo ao moçar?",
         alternativas: [
-            "H2O",
-            "CO2"
+            "Sim",
+            "Não"
         ],
         correta: 0
     }
